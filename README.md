@@ -4,10 +4,12 @@
 ### 依赖
 jquery-1.11.2.min.js
 ### 使用
+```
 引用css
-`<link rel="stylesheet" type="text/css" href="cardformat.css"/>`
+<link rel="stylesheet" type="text/css" href="cardformat.css"/>
 引用js
-`<script type="text/javascript" src="jquery.cardformat.js"></script>`
+<script type="text/javascript" src="jquery.cardformat.js"></script>
+```
 ### 基本方法
 ```
 <input type="text" id="card">
