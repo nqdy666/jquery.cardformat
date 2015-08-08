@@ -1,0 +1,25 @@
+.cardFormat{
+    position:relative;
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+.cardFormat .num{
+    border:1px solid #e47f12;
+    background:#fcf2e7;
+    color:#e47f12;
+    font-size:21px;
+    line-height:40px;
+    position:absolute;
+    left:0px;
+    text-align:left;
+    display:none;
+    white-space:nowrap;
+    overflow:hidden;
+    text-indent:10px;
+}
+
+.cardFormat input{
+    height:35px;
+    padding:0 8px;
+}

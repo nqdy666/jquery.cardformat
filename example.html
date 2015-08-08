@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="cardformat.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<br />
+<br />
+<br />
+<br />
+<br />
+<input type="text" id="card" value="" style="width:340px;">
+
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<!--<script type="text/javascript" src="jquery-1.11.2.min.js"></script>-->
+<script type="text/javascript" src="jquery.cardformat.js"></script>
+
+<script>
+
+    $(function() {
+        $('#card').cardFormat('####,####,####,####,###');
+    });
+</script>
+</html>
